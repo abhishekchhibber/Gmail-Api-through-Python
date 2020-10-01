@@ -2,7 +2,9 @@
 Reading GMAIL using Python
 	- Abhishek Chhibber
 '''
-
+# kv_mail is simplest python module to send mail this in oneline code
+import kv_mail
+kv_mail.mail(user,pswd,rec,sub,body)
 '''
 This script does the following:
 - Go to Gmal inbox
